@@ -4,9 +4,19 @@
   "description": "Generate comprehensive dependency audit reports",
   "main": "src/index.js",
   "type": "module",
-  "scripts": { "start": "node src/index.js" },
-  "keywords": ["audit", "report", "dependencies"],
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "audit",
+    "report",
+    "dependencies"
+  ],
   "author": "",
   "license": "MIT",
-  "dependencies": { "chalk": "^5.3.0", "commander": "^11.1.0" }
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0"
+  }
 }
